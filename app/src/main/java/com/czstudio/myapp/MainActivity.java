@@ -1,13 +1,8 @@
 package com.czstudio.myapp;
 
-import android.app.*;
-import android.graphics.*;
-import android.hardware.*;
-import android.os.*;
-import android.view.*;
-import android.view.SurfaceHolder.*;
-
-import android.hardware.Camera;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.SurfaceView;
 
 public class MainActivity extends Activity 
 {

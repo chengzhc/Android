@@ -1,12 +1,4 @@
 package com.czstudio.myapp;
-import android.graphics.*;
-import android.hardware.*;
-import android.util.*;
-import android.view.*;
-import android.view.SurfaceHolder.*;
-import java.io.*;
-
-import java.io.ByteArrayOutputStream;
 
 import android.graphics.ImageFormat;
 import android.graphics.Rect;
@@ -14,9 +6,11 @@ import android.graphics.YuvImage;
 import android.hardware.Camera;
 import android.hardware.Camera.Size;
 import android.util.Log;
+import android.view.SurfaceHolder;
+import android.view.SurfaceHolder.Callback;
+import android.view.SurfaceView;
 
-
-import android.hardware.Camera;
+import java.io.ByteArrayOutputStream;
 
 
 
